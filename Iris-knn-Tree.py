@@ -102,11 +102,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""
-Summary of Iris Decision Tree:
--The root splits on petal width <= 0.8, which was the best split available when looking at the dataset.
--For the wider flowers, the tree splits based on petal length <= 4.95, separating most of the Versicolor and Virginica labels.
--The left subtree usually led to Iris-Versicolor, while the right subtree mostly led to Iris-Virginica.
--The tree has a depth of 4, meaning there is a maximum of 4 decisions from the root to a leaf node.
--There is 9 decision nodes and 7 leaf nodes in the tree.
-"""
